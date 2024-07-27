@@ -14,3 +14,16 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const downloadButton = document.getElementById('download-btn');
+
+    downloadButton.addEventListener('click', () => {
+        const link = document.createElement('a');
+        link.href = 'https://github.com/Shridhar-Pattar/Portfolio-website/raw/main/Resume.pdf';
+        link.download = 'Resume.pdf';  // Filename for the downloaded file
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+});
