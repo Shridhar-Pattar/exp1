@@ -474,7 +474,7 @@ body {
 
 }
 
-@media (max-width: 412px) {
+@media (max-width: 720px) {
     .content .img1 {
         height: 500px;
         width: 500px;
