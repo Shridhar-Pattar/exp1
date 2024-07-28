@@ -53,7 +53,7 @@ body {
 }
 
 .header h1 {
-
+    display: flex;
     font-weight: 500;
     font-size: 35px;
     margin-left: 100px;
@@ -61,7 +61,7 @@ body {
 }
 
 .ani span {
-    display: inline-block;
+    display: inline;
     transition: transform 0.3s ease;
 }
 
@@ -470,6 +470,69 @@ body {
     height: 40px;
     width: 40px;
     margin-top: 20px;
+
+
+}
+
+@media (max-width:360px) {
+
+    .content .img1 {
+        height: 300px;
+        width: 300px;
+        padding-left: 1000px;
+    }
+
+    .content {}
+
+    .githubLin img {
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+
+
+    }
+
+    .text .k {
+        padding: 5px;
+        margin-left: 45px;
+    }
+
+    .text .c {
+        padding: 5px 20px 5px 20px;
+    }
+
+    .text h1 {
+        font-size: 25px;
+        width: 300px;
+    }
+
+    .text h2 {
+        font-size: 15px;
+    }
+
+    .text h3 {
+        font-size: 20px;
+    }
+
+    .part2 h1 {
+        font-size: 20px;
+        margin-top: 100px;
+        margin-left: 600px;
+        width: 100px;
+    }
+
+    .abt1 .img2 {
+        height: 100px;
+        width: 100px;
+        padding-left: 950px;
+    }
+
+    .abt2 p {
+        font-size: 10px;
+        width: 300px;
+
+    }
+
 
 
 }
